@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout source code from the Git repository
-                git 'your-git-repository-url'
+                git 'https://github.com/Afreentajj/Batch-Backend.git'
             }
         }
         stage('Build') {
